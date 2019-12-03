@@ -3,12 +3,12 @@
 **String resources**
 
 ```
-    <string name="html_text">
-        Je <b>suis</b> <i><u>un texte</u> riche</i> en <font color="#FF0088">couleurs !\n</font>
-        <a href="https://stackoverflow.com/questions/2734270/how-to-make-links-in-a-textview-clickable">Les liens fonctionnent avec un peu de Java/Kotlin</a>,
-        les commandes de sauts de <br>ligne</br> ne fo<br />nctionnent pas
-        mais les smileys (&#x1F61C;), si ! &#128520;</string>
-    <string name="a_link">Je suis un simple lien sans HTML : http://google.com</string>
+<string name="html_text">
+Je <b>suis</b> <i><u>un texte</u> riche</i> en <font color="#FF0088">couleurs !\n</font>
+<a href="https://stackoverflow.com/questions/2734270/how-to-make-links-in-a-textview-clickable">Les liens fonctionnent avec un peu de Java/Kotlin</a>,
+les commandes de sauts de <br>ligne</br> ne fo<br />nctionnent pas
+mais les smileys (&#x1F61C;), si ! &#128520;</string>
+<string name="a_link">Je suis un simple lien sans HTML : http://google.com</string>
 ```
 
 Supported tags : https://android.googlesource.com/platform/frameworks/base/+/master/core/java/android/text/Html.java#781
