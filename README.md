@@ -2,7 +2,7 @@
 
 **String resources**
 
-```
+``` xml
 <string name="html_text">
 Je <b>suis</b> <i><u>un texte</u> riche</i> en <font color="#FF0088">couleurs !\n</font>
 <a href="https://stackoverflow.com/questions/2734270/how-to-make-links-in-a-textview-clickable">Les liens fonctionnent avec un peu de Java/Kotlin</a>,
