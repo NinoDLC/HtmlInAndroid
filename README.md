@@ -11,7 +11,13 @@ mais les smileys (&#x1F61C;), si ! &#128520;</string>
 <string name="a_link">Je suis un simple lien sans HTML : http://google.com</string>
 ```
 
-Supported tags : https://android.googlesource.com/platform/frameworks/base/+/master/core/java/android/text/Html.java#781
+**One Java/KT line to enable clickable links**
+
+`textview_1.movementMethod = LinkMovementMethod.getInstance()`
+
+**Supported HTML tags**
+
+https://android.googlesource.com/platform/frameworks/base/+/master/core/java/android/text/Html.java#781
 
 NB : The link in the 4th row (string `html_text` with `autoLink="all"`) doesn't work ! Appearance is OK but it's not clickable
 
